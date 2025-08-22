@@ -2,14 +2,15 @@
 
 .conteiner {
   background-color: #e9bcac;
+  height: 300px;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .item {
   background-color: #00ffff;
   border: 1px solid #000;
   text-align: center;
-  /* flex: auto; */
 }
